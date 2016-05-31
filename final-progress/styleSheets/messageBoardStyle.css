@@ -1,0 +1,18 @@
+.message 
+{
+	border: 5px solid #03adbe;
+	margin-top:3px;
+	width:700px;
+}
+.content
+{
+	margin-left: 20px;
+}
+.footerCell
+{
+	font-size:8pt;
+}
+th
+{
+	font-size:16pt;
+}

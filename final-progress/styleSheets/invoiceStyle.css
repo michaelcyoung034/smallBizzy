@@ -1,0 +1,63 @@
+/* START invoice*/
+body #content
+{
+	font-family:"Courier New", Courier, monospace;
+	/*font-size:14px;*/
+}
+input
+{
+	margin:4px;
+}
+.numberCell
+{
+	text-align:right;
+}
+.invoiceHeaderTable 
+{
+	border:2px solid black;
+	width:85%;
+	border-collapse:collapse;
+	margin-bottom:10px;
+}
+.invoiceHeaderTable td
+{
+	border:1px solid black;
+	text-align:center;
+}
+
+.lineItemsTable td
+{
+	border-bottom:2px dashed black;
+}
+.lineItemsTable
+{
+	width:85%;
+	border:2px solid black;
+	border-collapse:collapse;
+	margin-bottom:10px;
+}
+.lineItemsTable th
+{
+	border:1px solid black;
+}
+
+.subtotalTable
+{
+	border-collapse:collapse;
+	border:2px solid black;
+	width:200px;
+	margin-bottom:10px;
+}
+.invoiceAction
+{
+	border-collapse:collapse;
+	border:2px solid black;
+	margin-bottom:10px;
+}
+.totalCell
+{
+	border-top:double black;
+	border-bottom:1px solid black;
+	font-weight:bold;
+}
+/* END invoice*/

@@ -1,0 +1,77 @@
+/* START customer view inventory*/
+body.viewItemBody{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:grey;
+}
+span.price{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#FF3300;
+	font-weight:900;
+}
+table.viewItemTable{
+	background-color:white;
+	vertical-align:top;
+	width: 100%;
+	min-width: 880px;
+	max-width: 970px;
+}
+
+td.viewItemPic{
+	min-height: 350px;
+	min-width: 380px;
+	width: 40%;
+	padding: 5px;
+	background-color:#e6e6e6;
+}
+
+td.viewItemOuterSub{
+	min-height: 350px;
+	width: 40%;
+}
+table.viewItemSub{
+	min-height: 350px;
+	max-width: 520px;
+	vertical-align:top;
+	border:10px solid #03adbe;
+	padding:20px;
+}
+
+
+td.viewItemTitle{
+	font-size:20px;
+	font-weight:bold;
+	color:#03adbe;
+}
+td.viewItemSubLeft{
+	width:80px;
+	font-size:16px;
+	font-weight:bold;
+}
+
+td.viewItemSubRight{
+	width:370px;
+	font-size:16px;
+}
+
+td.viewItemBtn{
+	padding-left:5px;
+	height:55px;
+}
+p.viewItemOverview{
+	padding:10px;
+	text-align:left;
+	vertical-align:top;
+	vertical-align:text-top;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:grey;
+}
+table.viewItemDetail{
+	width: 100%;
+	vertical-align:top;
+	border:10px solid lightgrey;
+	padding:20px;
+}
+/* END customer view inventory*/

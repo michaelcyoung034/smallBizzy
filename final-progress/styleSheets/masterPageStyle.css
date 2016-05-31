@@ -1,0 +1,533 @@
+/*Overall page style*/
+body {
+    font-family:Arial, Helvetica, sans-serif;
+	/*font-size:14px;*/
+    margin-left:10%;
+    margin-right:10%;
+	width:980px;
+}
+div
+{
+	/*debug
+    border:1px solid red;*/
+}
+
+
+.spacer
+{
+	clear:both;
+    margin:0px;
+}
+
+
+/*Header style*/
+#header
+{
+	/*background-color:#72A6DE;*/
+	/*font-size:9pt;*/
+}
+#header table
+{
+	/*debug
+	border:1px solid blue;*/
+	width:100%;
+}
+#header table tr td
+{
+	/*debug
+	border:1px solid blue;*/
+	/*vertical-align:bottom;*/
+}
+.headerTable
+{
+    margin-right:0%;
+}
+.headerLogo
+{
+	width:25%;
+	/*border-width: 1px;*/
+	/*border-style: solid;*/
+}
+#headerSearchForm, #loginForm
+{
+	border:0px;
+	/*width:510px;
+	border-width: 1px;*/
+	/*border-style: solid;*/
+}
+.searchTextbox
+{
+	width: 300px;
+	height: 30px;
+}
+
+.searchSubmitButton
+{
+	height: 30px;
+	margin:0px;
+}
+.emailCell
+{
+	/*border-width: 1px;*/
+	/*border-style: solid;*/
+	width:5%;
+}
+
+.authenticationCell
+{
+	width:5%;
+}
+
+.headerLinks
+{
+	font-size:16px;
+	text-align:center;
+}
+
+.previewInfoHeader
+{
+	text-align:center;
+	font-size:18pt;
+	font-weight:bold;
+}
+
+.announcement{
+	height: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	text-align:center;
+	background-color: #A9A9A9;
+}
+/*END header.css for header.html*/
+/*Footer Style*/
+#footer
+{
+	/*background-color:#A5A68C;*/
+}
+#footer table, #footer table tr td
+{
+	/*debug
+	border:1px solid orange;*/
+}
+.footerTable
+{
+	/*no need for arbitrary fixed measurements. the tables will expand and contract with the body of the page.*/
+	/*width:980px;*/
+}
+.fLogo
+{
+	width:25%;
+	/*height:95px;*/
+}
+.fLinks
+{
+	/*width:700px;*/
+	/*padding:10px;*/
+	/*vertical-align:center;*/
+	font-size:10pt;
+}
+.fCopy
+{
+	text-align:center;
+	font-size:12px;
+	font-family:"Courier New", Courier, monospace;
+}
+/*Content Style*/
+#content
+{
+	/*background-color:#E0E0E0;*/
+    min-height:400px;
+}
+#content table
+{
+	/*debug
+	border:1px solid green;
+	width:100%;*/
+}
+#content table tr td
+{
+	/*border:1px solid green;*/
+}
+td.previewInfo
+{
+	width:25%;
+	border:2px solid black;
+}
+.accountInfo
+{
+	border:6px solid gray;
+}
+.sellerInfoCell
+{
+	border:2px solid black;
+	width:250px;
+}
+.sellerAddressCell
+{
+	border:2px solid black;
+	width:200px;
+}
+.topSellingItems
+{
+	border:2px solid black;
+	width:250px;
+}
+.itemForSale
+{
+	width:25%;
+	border:1px solid black;
+	font-size:11pt;
+}
+/*start invoice list styles*/
+.invoiceList
+{
+	vertical-align:text-top;
+}
+/*end invoice list styles*/
+
+/* START TEXT SPAN STYLE */
+span.title1{
+	font-size:20px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#03adbe;
+}
+span.title2{
+	font-size:14px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#000000;
+}
+
+
+/* START END SPAN STYLE */
+/* START SHOPPING CART*/
+table.receiptTB{
+	min-width: 880px;
+	max-width: 970px;
+	min-height:500px;
+	vertical-align:top;
+	border:10px solid lightgrey;
+	padding:20px;
+}
+td.receiptLeftTD{
+	padding:10px;
+	width:150px;
+}
+td.receiptRightTD{
+	padding:10px;
+	width:760px;
+}
+
+tr.reciptHeadlineTR{
+	height:30px;
+	margin:10px;
+}
+td.receiptLine{
+	background-color:#CCCCCC;
+	height:1px;
+}
+
+tr.reciptDetailTR{
+	vertical-align:top;
+}
+td.reciptDetailTD{
+	vertical-align:top;
+	height: 30px;
+}
+table.reciptDetailTB{
+	vertical-align:top;
+}
+
+.btn-link{
+  border:none;
+  outline:none;
+  background:none;
+  cursor:pointer;
+  color:#0000EE;
+  padding:0;
+  text-decoration:underline;
+  font-family:inherit;
+  font-size:inherit;
+}
+
+#btn1_cart {
+	width: 200px;
+	height: 50px;
+	background-image: url(../images/btn_emptycart.jpg);
+	background-repeat: no-repeat;
+}
+
+#btn2_cart {
+	width: 200px;
+	height: 50px;
+	background-image: url(../images/btn_buynow.jpg);
+	background-repeat: no-repeat;
+}
+
+#qty {
+	color: black;
+	font-weight: normal;
+}
+
+#qty_img {
+	visibility: hidden;
+}
+
+#qty_img2 {
+	visibility: hidden;
+}
+/* END SHOPPING CART*/
+
+/* START customer view inventory*/
+
+span.price{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#03adbe;
+	font-weight:900;
+}
+table.viewItemTable{
+	background-color:white;
+	vertical-align:top;
+	width: 100%;
+	min-width: 880px;
+	max-width: 970px;
+	font-size:12px;
+}
+
+td.viewItemPic{
+	min-height: 350px;
+	min-width: 380px;
+	width: 40%;
+	padding: 5px;
+	background-color:#e6e6e6;
+}
+
+td.viewItemOuterSub{
+	min-height: 350px;
+	width: 40%;
+}
+table.viewItemSub{
+	min-height: 350px;
+	max-width: 520px;
+	vertical-align:top;
+	border:10px solid #03adbe;
+	padding:20px;
+}
+
+
+td.viewItemTitle{
+	font-size:20px;
+	font-weight:bold;
+	color:#03adbe;
+}
+td.viewItemSubLeft{
+	width:180px;
+	font-size:16px;
+	font-weight:bold;
+}
+
+td.viewItemSubRight{
+	width:270px;
+	font-size:16px;
+}
+
+td.viewItemBtn{
+	padding-left:5px;
+	height:55px;
+}
+p.viewItemOverview{
+	padding:10px;
+	text-align:left;
+	vertical-align:top;
+	vertical-align:text-top;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:grey;
+}
+table.viewItemDetail{
+	width: 100%;
+	vertical-align:top;
+	border:10px solid lightgrey;
+	padding:20px;
+}
+/* END customer view inventory*/
+
+/*start add inventory table*/
+#inventoryAddTable
+{
+	width:auto;
+}
+/*end add inventory table*/
+
+/* unvisited link */
+a:link {
+    color: grey;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: grey;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #03adbe;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #03adbe;
+	text-decoration: none;
+}
+
+/*START manageMyShop.php style*/
+/*
+to-do:
+	- float footer to bottom of document; - HOW? smart solution regardless of size of polymorphic inventory table;
+*/
+.button {
+	background-color: #20B6C7;
+	border: none;
+	color: white;
+	padding: 20px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+a.button:hover {
+    color: #ffffff;
+	text-decoration: none;
+}
+
+a.button {
+	color: black;
+}
+
+div.manageMyShop_body {
+	/*border: 1px solid black;*/
+	padding-bottom: 200px;
+}
+
+div.currentInventory_manageMyShop {
+	/*border: 1px solid black;*/
+	float: right;
+}
+
+table.currentInventory_manageMyShop{
+	border-collapse: collapse
+}
+
+th.currentInventory_manageMyShop, tr.currentInventory_manageMyShop, td.currentInventory_manageMyShop {
+	border: 1px solid black;
+	padding:8px;
+}
+
+th.currentInventory_manageMyShop{
+	padding: 8px;
+}
+
+a:hover {
+    color: #03adbe;
+	text-decoration: none;
+}
+
+/*
+p.spacer {
+	clear: right;
+}
+*/
+
+/*
+div.sidebar_menu {
+	float: left;
+	border: 1px solid black;
+}
+*/
+
+div.footer_manageMyShop{
+	float: left;
+}
+
+
+h2.manageMyShop {
+	text-align: center;
+}
+
+#supplier{
+	font-weight: bold;
+}
+
+#product{
+	font-weight: bold;
+}
+
+.menuButtons{
+	text-align: center;
+}
+/*END manageMyShop.php style*/
+
+/*START addInventory.php style*/
+/*
+div.addInventory_index{
+	font-size: 16pt;
+}
+input.addInventory_index{
+	font-size: 16pt;
+}
+#submit
+span.addInventory_index{
+	text-decoration: underline;
+}
+
+a.addInventory{
+	font-size: 14pt;
+}
+*/
+table.addInventory{
+	border-collapse: collapse
+}
+
+th.addInventory, tr.addInventory, td.addInventory {
+	border: 1px solid black;
+	padding:8px;
+}
+
+/*END addInventory.php style*/
+
+/*START editInventory.php style*/
+table.editInventory{
+	border-collapse: collapse
+}
+
+th.editInventory, tr.editInventory, td.editInventory {
+	border: 1px solid black;
+	padding:8px;
+}
+/*END editIventory.php style */
+/*START message pages*/
+.fromColumn, .toColumn 
+{
+	width:200px;
+}
+.subjectColumn
+{
+	width:150px;
+}
+.messageTable
+{
+	border: 7px solid gray;
+}
+.messageCell
+{
+	border: 3px solid cyan;
+}
+/*END message pages*/

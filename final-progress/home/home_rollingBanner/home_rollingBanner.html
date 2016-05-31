@@ -1,0 +1,46 @@
+<script type='text/javascript' src='./jquery-1.4.2.js'></script>
+<script type="text/javascript" src="./stepcarousel.js"></script>
+<link rel="stylesheet" type="text/css" href="./home_rollingBanner.css">
+
+
+<script type="text/javascript">
+	stepcarousel.setup({
+		galleryid: 'promotion',
+		beltclass: 'belt',
+		panelclass: 'panel',
+		panelbehavior: {speed:500, wraparound:true, wrapbehavior:'pushpull', persist:false},
+		defaultbuttons: {enable: false, moveby: 1, leftnav: ['/arrowl.gif', -10, 100], rightnav: ['/arrowr.gif', -10, 100]},
+		statusvars: ['reportA', 'reportB', 'reportC'],
+		contenttype: ['inline']
+	});
+
+	//Every 4 seconds, it moves
+	function moveStep()
+	{
+		stepcarousel.stepBy('promotion', 1);
+		setTimeout(moveStep,4000);
+	}
+	moveStep();
+</script>
+<!--<style type="text/css">
+#promotion{overflow: hidden;}
+</style>-->
+<div id="promotion" class="stepcarousel">
+	<div class="belt"><!-- style="width: 2265px; left: 0px; ">-->
+		<div class="panel" style="float: none; position: absolute; left: 0px; ">
+			<img src="home_img/banner01.jpg" class="hand" onclick="location.href='/index.php';" alt="" />
+		</div>
+		<div class="panel" style="float: none; position: absolute; left: 755px; ">
+			<img src="home_img/banner02.jpg" class="hand" onclick="location.href='/index2.php';" alt="" />
+		</div>
+		<div class="panel" style="float: none; position: absolute; left: 1510px; ">
+			<img src="home_img/banner03.jpg" class="hand" onclick="location.href='/index3.php';" alt="" />
+		</div>
+	</div>
+</div>
+
+<p id="promotion-paginate" style="position:relative; width:755px; top:-40px; text-align:center; z-index:999;">
+	<img src="./icon_off.gif" data-over="./icon_on.gif" data-select="./icon_on.gif" data-moveby="1" alt=""/>
+</p>
+
+

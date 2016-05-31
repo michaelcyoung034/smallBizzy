@@ -1,0 +1,188 @@
+#scrollbox3 {
+font-size: 9pt; 
+width:100%; height:600px; 
+overflow:auto; 
+padding:0px; 
+border:0; 
+border-style:solid; 
+border-color:#E6E6E6;
+}
+
+#scrollbox2 {
+font-size: 9pt; 
+width:100%; height:80px; 
+overflow:auto; 
+padding:0px; 
+border:1px; 
+border-style:solid; 
+border-color:#E6E6E6;
+}
+
+#scrollbox {
+font-size: 9pt; 
+width:100%; height:210px; 
+overflow:auto; 
+padding:0px; 
+border:1px; 
+border-style:solid; 
+border-color:#E6E6E6;
+}
+
+.DC_P:LINK
+{
+  FONT-SIZE: 11PX;
+  COLOR: #FFFFFF;
+  FONT-WEIGHT:BOLD;
+  FONT-FAMILY: "dotum", "Arial", "sans-serif";
+}
+
+.DC_P:VISITED
+{
+  FONT-SIZE: 11PX;
+  COLOR: #FFFFFF;
+  FONT-WEIGHT:BOLD;
+  FONT-FAMILY: "dotum", "Arial", "sans-serif";
+}
+
+.DC_P:HOVER
+{
+  FONT-SIZE: 11PX;
+  COLOR: #FFFFFF;
+  FONT-WEIGHT:BOLD;
+  TEXT-DECORATION: UNDERLINE;
+  FONT-FAMILY: "dotum", "Arial", "sans-serif";
+}
+
+.dc_input
+{
+   border-top:solid 1px #818181;
+   border-left:solid 1px #818181;
+   border-right:solid 1px #CDCDCD;
+   border-bottom:solid 1px #CDCDCD;
+	BACKGROUND-COLOR: #F8F8F8;
+	font-size : 12px;
+
+	COLOR: #4B4B4B;
+}
+
+.dc_input_hidden {
+	border:none;
+	border-top:solid 1px transparent;
+	border:solid 1px transparent;
+	background-color:transparent;
+	font-size : 12px;
+	
+	COLOR: #4B4B4B;
+}
+
+.dc_table01
+{
+	border-top:solid 1px #E6E6E6;
+	border-right:solid 1px #CDCDCD;
+	border-bottom:solid 1px #E6E6E6;
+}
+
+.dc_table01_1
+{
+	border-top:solid 1px #E6E6E6;
+	border-right:solid 1px #CDCDCD;
+}
+
+.dc_table02
+{
+	border-top:solid 1px #E6E6E6;
+	border-right:solid 1px #E6E6E6;
+}
+
+.dc_table03
+{
+	border-top:solid 1px #E6E6E6;
+}
+
+.dc_table04
+{
+	border-top:solid 1px #E6E6E6;
+	border-bottom:solid 1px #E6E6E6;
+	border-right:solid 1px #E6E6E6;
+}
+
+.dc_table044
+{
+	border-bottom:solid 1px #E6E6E6;
+}
+
+.dc_table05
+{
+	border-top:solid 1px #E6E6E6;
+	border-bottom:solid 1px #E6E6E6;
+}
+
+.s_font
+{
+	font-size:11px;
+	font-family:dotum;
+	word-spacing:-1px;
+}
+
+.w_font
+{
+	 letter-spacing:-2px;
+ }
+
+
+.dc_price
+ {
+	font-size:12px;
+	font-family:"Arial", "Helvetica", "sans-serif";
+ 	color:#000000;
+ }
+
+.qr_tab a, .qr_tab img {
+	outline:none;
+}
+
+.qr_view_frame {
+	height:290px;
+	border:solid 1px #dadada; padding:15px;
+}
+
+
+.tabledd1   { border-top: solid 1px #dadada;}
+.tabledd23  { border-right: solid 1px #dadada;border-bottom: solid 1px #dadada;}
+.tabledd2  { border-right: solid 1px #dadada;}
+.tabledd3   { border-bottom: solid 1px #dadada;}
+
+
+
+.input01 {BORDER-RIGHT: #d4d4d4 1px solid; BORDER-TOP: #d4d4d4 1px solid; BORDER-LEFT: #d4d4d4 1px solid; BORDER-BOTTOM: #d4d4d4 1px solid; BACKGROUND-COLOR: #ffffff;font-size :14px; color :#939393}
+
+.stepcarousel{
+	position: relative;
+	overflow: scroll;
+	width: 755px;
+	height: 325px;
+}
+
+.stepcarousel .belt{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.stepcarousel .panel{
+	float: left; /*leave this value alone*/
+	overflow: hidden; /*clip content that go outside dimensions of holding panel DIV*/
+	margin: 0px; /*margin around each panel*/
+	width: 755px; /*Width of each panel holding each content. If removed, widths should be individually defined on each content DIV then. */
+}
+
+#promotion{
+	width: 755px;
+	height: 325px;
+	border: 0;
+}
+
+#promotion .panel{
+	height: 325px;
+	text-align: center;
+}

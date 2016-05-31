@@ -1,0 +1,51 @@
+/* START SHOPPING CART*/
+table.receiptTB{
+	min-width: 880px;
+	max-width: 970px;
+	min-height:500px;
+	vertical-align:top;
+	border:10px solid lightgrey;
+	padding:20px;
+}
+td.receiptLeftTD{
+	padding:10px;
+	width:150px;
+}
+td.receiptRightTD{
+	padding:10px;
+	width:760px;
+}
+
+tr.reciptHeadlineTR{
+	height:30px;
+	margin:10px;
+}
+td.receiptLine{
+	background-color:#CCCCCC;
+	height:1px;
+}
+
+tr.reciptDetailTR{
+	vertical-align:top;
+}
+td.reciptDetailTD{
+	vertical-align:top;
+	height: 30px;
+}
+table.reciptDetailTB{
+	vertical-align:top;
+}
+
+.btn-link{
+  border:none;
+  outline:none;
+  background:none;
+  cursor:pointer;
+  color:#0000EE;
+  padding:0;
+  text-decoration:underline;
+  font-family:inherit;
+  font-size:inherit;
+}
+
+/* END SHOPPING CART*/
